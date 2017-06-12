@@ -1,3 +1,14 @@
+- This project is forked from https://github.com/jonschlinkert/gray-matter.
+- CoffeeScript support removed version for Webpack build compatibility.
+- Forked gray-matter version is 2.1.1
+
+If you meet `node_modules/coffee-script/bin/coffee Unexpected character '#' (1:0)` errors and don't need coffeescript support, it will help you.
+```
+npm install gray-matter-webpack-build
+```
+
+Followings are original README.md.
+
 # gray-matter [![NPM version](https://img.shields.io/npm/v/gray-matter.svg?style=flat)](https://www.npmjs.com/package/gray-matter) [![NPM monthly downloads](https://img.shields.io/npm/dm/gray-matter.svg?style=flat)](https://npmjs.org/package/gray-matter)  [![NPM total downloads](https://img.shields.io/npm/dt/gray-matter.svg?style=flat)](https://npmjs.org/package/gray-matter) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/gray-matter.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/gray-matter)
 
 > Parse front-matter from a string or file. Fast, reliable and easy to use. Parses YAML front matter by default, but also has support for YAML, JSON, TOML or Coffee Front-Matter, with options to set custom delimiters. Used by metalsmith, assemble, verb and many other projects.
